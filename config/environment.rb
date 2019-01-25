@@ -1,7 +1,7 @@
 require 'bundler/setup'
 Bundler.require
 
-SINATRA_ACTIVESUPPORT_WARNING=false
+
 ENV['SINATRA_ENV'] ||= "development"
 
 ActiveRecord::Base.establish_connection(
